@@ -17,7 +17,8 @@ public class Tarea1Test {
             "100000000,000000001",
             "1590,0951",
             "87600765, 56700678",
-            "864230000, 000032468"
+            "864230000, 000032468",
+            "-1212310000, -0000132121"
     })
     public void verifyInvertir(int number, String expected) {
         String actual = tarea1.invertir(number);
